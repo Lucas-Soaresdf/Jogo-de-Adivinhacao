@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<h1>Jogo de Adivinhação</h1>
+    </header>
+    <section>
+          <p>Tente adivinhar o número entre 1 e 20</p>
+          <div>
+            <input type="number" id="palpite" placeholder="Digite um número">
+            <button onclick="verificar()">Verificar</button>
+            <button onclick="reiniciar()" id="btnReiniciar" style="display:none;">Tentar Novamente? </button>
+          </div>
+          <p id="res"></p>
+          <p id="tentativas"></p>
+        </section>
+          <script src="js.js"></script>
+</body>
+</html>
